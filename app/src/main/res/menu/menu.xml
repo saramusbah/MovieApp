@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:id="@+id/menu"
+            app:showAsAction="always"
+            android:title="menu"
+            android:visible="true"
+          >
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item android:id="@+id/toptrated"
+            android:title="Top Rated"
+            app:showAsAction="ifRoom|withText"
+
+            />
+        <item android:id="@+id/mostpopular"
+            android:title="Most Popular"
+            app:showAsAction="ifRoom|withText"
+            />
+
+        <item android:id="@+id/favourits"
+            android:title="Favourits"
+            app:showAsAction="ifRoom|withText"
+
+            />
+
+</menu>
+        </item>
+</menu>
